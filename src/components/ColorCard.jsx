@@ -41,7 +41,7 @@ export const ColorCard = ({ id, content }) => {
   }
 
   return (
-    <div className="bg-zinc-800">
+    <div className=" card">
       <div className="py-2 px-2 flex justify-between">
         {onEdit ? (
           <button onClick={handleUpdate}>

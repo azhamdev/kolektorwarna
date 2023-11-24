@@ -13,14 +13,14 @@ export default async function Page() {
 
 
   return (
-    <div className='bg-black space-y-10 py-10'>
+    <div className='space-y-10 py-11 px-4'>
 
       <header className='text-center space-y-3'>
         <h1 className='text-6xl font-semibold text-indigo-500'>Save Your Favorite Color</h1>
         <p className='text-zinc-300 font-light text-sm'>remember the color you will use for your project someday</p>
       </header>
 
-      <main >
+      <main className='py-11 space-y-7'>
         <ColorInput />
         <div className='p-4 grid grid-cols-2 lg:grid-cols-4 gap-1'>
           {items.map(({ id, content }) => {

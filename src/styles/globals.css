@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply bg-zinc-900;
+  }
+
   input {
     @apply outline-none;
   }
@@ -17,6 +21,10 @@
 
   .button {
     @apply bg-indigo-500 text-white px-4 py-2 rounded-full hover:bg-indigo-600 duration-300;
+  }
+
+  .card {
+    @apply bg-zinc-700 hover:bg-zinc-800 duration-300 hover:shadow-lg hover:shadow-indigo-500/50;
   }
 
 }
