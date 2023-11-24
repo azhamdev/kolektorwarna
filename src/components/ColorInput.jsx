@@ -30,9 +30,10 @@ export const ColorInput = ({ currentContent }) => {
   return (
     <div className="flex justify-center items-center gap-4">
       <input
+        style={{ backgroundColor: color }}
         onChange={(e) => setColor(e.target.value)}
         className="input"
-        placeholder="Enter Hex Color"
+        placeholder="# Enter hex color"
       />
       <button onClick={createNote} className="button">
         Save Color
